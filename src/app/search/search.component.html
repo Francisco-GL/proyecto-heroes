@@ -1,19 +1,28 @@
 <meta http-equiv="refresh" content="5;URL=/heroes" />
 
-<div class="row animated fadeIn fast" *ngIf="indice == -1">
+<div class="contenedor">
+
+  <div class="row animated fadeIn fast" *ngIf="indice == -1">
 
     <div class="co-md-12">
-        <div class="alert alert-info" role="alert">
-            No existen resultados de {{nombreh}}
-        </div>
-    </div>
 
-</div>
-<div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <img src="../../assets/img/heroes.GIF" class="card-img-top" alt="...">
+ 
     </div>
-    <img src="..." class="card-img-top" alt="...">
 
   </div>
+
+  <div class="row animated fadeIn fast" *ngIf="indice == -1">
+
+    <div class="co-md-12 contenedor2">
+
+        <h1>Hemos buscado a conciencia.</h1>
+
+        <h3>Pero no existen resultados de {{nombreh}} ):</h3>
+    </div>
+
+  </div>
+
+</div>
+
 <app-unheroe *ngIf="indice != -1" [heroe]='miheroe'></app-unheroe>
