@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+
+#marvel {
+    color: rgb(180, 1, 1);
+}
+
+#dc {
+    color: rgb(0, 0, 177);
+}
+
+@media(max-width: 768px) {
+    div > img{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media(max-width: 460px) {    
+    div > img{
+        width: 60%;
+        height: 60%;
+    }
+}
