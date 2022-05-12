@@ -1,0 +1,37 @@
+<div *ngIf="data.length > 0 else sinUsuarios">
+    <table class="table table-hover table-striped">
+        <thead class="thead-dark" style="text-align: center;">
+            <tr>
+                <th>Nombre</th>
+                <th>Sexo</th>
+                <th>Correo Electrónico</th>
+                <th>Fecha de Nacimiento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of data">
+                <td>{{user.nombre}}</td>
+                <td>{{user.sexo}}</td>
+                <td>{{user.correo}}</td>
+                <td>{{user.nacimiento}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<ng-template #sinUsuarios>
+    <meta http-equiv="refresh" content="4;URL=/home" />
+    <div class="contenedor">
+        <div class="row animated fadeIn fast">
+            <div class="co-md-12">
+                <img src="../../assets/img/empty.GIF" class="card-img-top" alt="...">
+            </div>
+        </div>
+
+        <div class="row animated fadeIn fast">
+            <div class="co-md-12 contenedor2">
+                <h3>Aún No hay Usuarios Registrados</h3>
+            </div>
+        </div>
+    </div>
+</ng-template>
