@@ -1,14 +1,15 @@
-
-<h1 class="text-center">Heroes <small>Marvel y DC</small></h1>
-
-<div class="card-columns">
-    <div class="card" *ngFor= "let h of misHeroes, let i=index">
-        <img src="{{h.img}}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">{{h.nombre}}</h5>
-          <p class="card-text">{{h.bio}}</p>
-          <p class="card-text"><small class="text-muted">{{h.aparicion}}</small></p>
-        </div>
-        <a [routerLink]="['/heroe',i]" class="mb-3 btn btn-outline-primary btn-block">Ver Más</a>
+<div class="jumbotron">
+  <h1 class="text-center">Heroes <small>Marvel y DC</small></h1>
+  <br>
+  <div class="card-columns">
+    <div class="card" *ngFor="let h of misHeroes, let i=index">
+      <img src="{{h.img}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{h.nombre}}</h5>
+        <p class="card-text">{{h.bio}}</p>
+        <p class="card-text"><small class="text-muted">{{h.aparicion}}</small></p>
+      </div>
+      <a [routerLink]="['/heroe',i]" class="mb-3 btn btn-outline-primary btn-block">Ver Más</a>
     </div>
+  </div>
 </div>

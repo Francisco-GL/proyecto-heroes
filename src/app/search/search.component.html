@@ -1,28 +1,30 @@
-<meta http-equiv="refresh" content="5;URL=/heroes" />
+<div class="jumbotron">
+  <meta http-equiv="refresh" content="5;URL=/heroes" />
 
-<div class="contenedor">
+  <div class="contenedor">
 
-  <div class="row animated fadeIn fast" *ngIf="indice == -1">
+    <div class="row animated fadeIn fast" *ngIf="indice == -1">
 
-    <div class="co-md-12">
+      <div class="co-md-12">
 
         <img src="../../assets/img/heroes.GIF" class="card-img-top" alt="...">
- 
+
+      </div>
+
     </div>
 
-  </div>
+    <div class="row animated fadeIn fast" *ngIf="indice == -1">
 
-  <div class="row animated fadeIn fast" *ngIf="indice == -1">
-
-    <div class="co-md-12 contenedor2">
+      <div class="co-md-12 contenedor2">
 
         <h1>Hemos buscado a conciencia.</h1>
 
         <h3><small>Pero no existen resultados de </small> {{nombreh}} <small>):</small></h3>
+      </div>
+
     </div>
 
   </div>
 
+  <app-unheroe *ngIf="indice != -1" [heroe]='miheroe'></app-unheroe>
 </div>
-
-<app-unheroe *ngIf="indice != -1" [heroe]='miheroe'></app-unheroe>
