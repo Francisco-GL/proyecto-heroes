@@ -1,0 +1,109 @@
+.creditos {
+    margin: 0;
+    border-radius: 20px;
+    background: rgb(237, 166, 234);
+}
+
+.encabezado {
+    display: flex;
+    height: 14vh;
+    background: rgb(170,0,15);
+    background: linear-gradient(90deg, rgb(0, 121, 182) 10%, rgb(216, 2, 20)  100%);
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 20px 20px 0 0;
+}
+
+.encabezado > img {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.encabezado > img.uaa {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 19vh); 
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    height: 5vh;
+    background: rgb(0, 21, 179);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 0 0 20px 20px;
+    font-weight: 700;
+}
+
+.principal > .titulos,
+.principal > .fecha {
+    text-align: center;
+}
+
+.principal > .autores {
+    margin-left: 30vw;
+    align-self: stretch;
+    flex: 3 0 auto;
+}
+
+.principal > .autores > h4{
+    font-weight: bolder;
+    color: rgb(168, 0, 0);
+} 
+
+.principal > .titulos {
+    margin-top: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex: 1 0 auto;
+    color: rgb(0, 0, 180);
+}
+
+.principal > .fecha {
+    font-family: 'Hubballi', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5vw;
+    align-self: flex-end;
+}
+
+.principal > .autores > ul > li {
+    /* font-family: 'Smooch Sans', sans-serif; */
+    font-family:serif;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 20px;
+    
+}
+
+#cap {
+    list-style: url(/assets/img/cap.png);
+}
+#pool {
+    list-style: url(/assets/img/pool.png);
+}
+#iron {
+    list-style: url(/assets/img/iron.png);
+}
+
+#cap:hover {
+    color: rgb(17, 0, 255);
+}
+#pool:hover {
+    color: rgb(216, 0, 0);
+}
+#iron:hover {
+    color: rgb(176, 159, 0);
+}
+
+.principal > .autores > h4 {
+    font-family: 'Roboto Mono', monospace;
+}
