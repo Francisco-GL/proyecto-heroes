@@ -1,7 +1,103 @@
 <div class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">
+    This is a simple hero unit, a simple jumbotron-style component for calling
+    extra attention to featured content or information.
+  </p>
+  <hr class="my-4" />
+  <p>
+    It uses utility classes for typography and spacing to space content out
+    within the larger container.
+  </p>
+  <button
+    type="button"
+    class="btn btn-primary btn-lg"
+    data-toggle="modal"
+    data-target="#exampleModalCenter"
+  >
+    Launch demo modal
+  </button>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModalCenter"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="forma" (ngSubmit)="guardarCambios()">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Nombre</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Nombre"
+              formControlName="nombre"
+            />
+          </div>
+          <label for="exampleInputPassword1">Sexo</label>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Masculino" checked formControlName="sexo">
+              <label class="form-check-label" for="gridRadios1">
+                Masculino
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Femenino"  formControlName="sexo">
+              <label class="form-check-label" for="gridRadios2">
+                Femenino
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Correo Electronico</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Correo"
+              formControlName="correo"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Fecha</label>
+            <input
+              type="date"
+              class="form-control"
+              id="exampleInputPassword1"
+              formControlName="fecha"
+            />
+            
+          </div>
+          <button type="submit" class="btn btn-primary">Registrarse</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Cerrar
+        </button>
+      </div>
+    </div>
   </div>
+</div>
