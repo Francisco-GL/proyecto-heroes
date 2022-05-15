@@ -23,3 +23,4 @@ export class UsersComponent implements OnInit {
     this.data = JSON.parse(this.data);
   }
 }
+
