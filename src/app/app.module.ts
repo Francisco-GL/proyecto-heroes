@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -13,6 +12,7 @@ import { UnheroeComponent } from './unheroe/unheroe.component';
 import { UsersComponent } from './users/users.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CreditsComponent } from './credits/credits.component';
+import { VideoComponent } from './video/video.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +24,14 @@ import { CreditsComponent } from './credits/credits.component';
     SearchComponent,
     UnheroeComponent,
     UsersComponent,
-    CreditsComponent
+    CreditsComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

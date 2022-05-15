@@ -10,10 +10,10 @@ export class UsersComponent implements OnInit {
   data;
 
   constructor() {
-    this.data = localStorage.getItem('usuarios');
-    this.data = JSON.parse(this.data);
-    if(localStorage.getItem("usuarios") == null){
+    this.data = JSON.parse(localStorage.getItem('usuario') || '{}');
+    if(localStorage.getItem('usuario') === null){
       this.data = [];
+      alert("aki");
       // this.agregar();
     }
     for(let i in this.data)
@@ -48,3 +48,4 @@ export class UsersComponent implements OnInit {
   //   localStorage.setItem("usuarios", JSON.stringify(this.data));
   // }
 }
+

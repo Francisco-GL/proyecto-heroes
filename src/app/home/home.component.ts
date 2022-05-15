@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
   };
 
   constructor() {
-    localStorage.setItem('usuario', JSON.stringify(this.info));
+    // localStorage.setItem('usuario', JSON.stringify(this.info));
     this.forma = new FormGroup({
       nombre: new FormControl(),
       sexo: new FormControl(),
@@ -42,6 +42,7 @@ export class HomeComponent implements OnInit {
 
     console.log('metodo guardarCambios');
     console.log(this.forma.value);
+    alert("Registro exitoso!!");
   }
 
   ngOnInit(): void {}
