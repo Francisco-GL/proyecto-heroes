@@ -11,11 +11,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { SearchComponent } from './search/search.component';
 import { UnheroeComponent } from './unheroe/unheroe.component';
 import { UsersComponent } from './users/users.component';
-<<<<<<< HEAD
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-=======
 import { CreditsComponent } from './credits/credits.component';
->>>>>>> 399f3ba3eb56a463af796ee675aa33e9de4049f9
 
 @NgModule({
   declarations: [
