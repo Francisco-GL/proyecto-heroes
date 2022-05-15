@@ -4,6 +4,8 @@ import { AboutComponent } from './about/about.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HomeComponent } from './home/home.component';
 
+import { CreditsComponent } from './credits/credits.component';
+
 import { UsersComponent } from './users/users.component';
 
 import { SearchComponent } from './search/search.component';
@@ -16,6 +18,7 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent},
   { path: 'about', component: AboutComponent},
   { path: 'users', component: UsersComponent},
+  { path: 'credits', component: CreditsComponent},
 
   { path: 'heroe/:id', component: UnheroeComponent},
   { path: 'buscador/:nombreh', component: SearchComponent},

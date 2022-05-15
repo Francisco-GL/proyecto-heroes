@@ -10,6 +10,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { SearchComponent } from './search/search.component';
 import { UnheroeComponent } from './unheroe/unheroe.component';
 import { UsersComponent } from './users/users.component';
+import { CreditsComponent } from './credits/credits.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UsersComponent } from './users/users.component';
     HeroesComponent,
     SearchComponent,
     UnheroeComponent,
-    UsersComponent
+    UsersComponent,
+    CreditsComponent
   ],
   imports: [
     BrowserModule,
