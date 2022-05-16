@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
 
   constructor() {
     this.data = localStorage.getItem('usuario');
-    if(this.data.length < 1){
+    if(this.data == null){
       localStorage.setItem('usuario', JSON.stringify(this.info));
     }
     
