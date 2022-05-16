@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
     this.forma = new FormGroup({
       nombre: new FormControl(),
       sexo: new FormControl(),
-      correo: new FormControl(),
+      correo: new FormControl('', [Validators.required, Validators.email]),
       fecha: new FormControl(),
     });
   }
