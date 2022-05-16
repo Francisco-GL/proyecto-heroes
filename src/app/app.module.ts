@@ -13,6 +13,7 @@ import { UsersComponent } from './users/users.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CreditsComponent } from './credits/credits.component';
 import { VideoComponent } from './video/video.component';
+import { DomseguroPipe } from './domseguro.pipe';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { VideoComponent } from './video/video.component';
     UnheroeComponent,
     UsersComponent,
     CreditsComponent,
-    VideoComponent
+    VideoComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
