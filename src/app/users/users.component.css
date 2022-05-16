@@ -28,6 +28,14 @@ img {
     border-radius: 20px;
 }
 
+#first {
+    color: rgb(167, 0, 0);
+}
+
+h1 {
+    text-align: center;
+}
+
 
 @media (max-width: 1200px){
     .contenedor{

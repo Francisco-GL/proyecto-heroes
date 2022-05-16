@@ -4,6 +4,10 @@
     
 
 }
+
+h1 > b{
+    color: rgb(180, 180, 1);
+}
 @media(max-width: 1200px) {
     
     .card-columns{
