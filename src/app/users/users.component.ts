@@ -20,7 +20,10 @@ export class UsersComponent implements OnInit {
 
   obtenerDatos(): void {
     console.log("obtenerDatos");
-    this.data = JSON.parse(this.data);
+    if(localStorage.getItem('usuario') === null){
+      this.data = [];
+    }else
+      this.data = JSON.parse(this.data);
   }
 }
 
