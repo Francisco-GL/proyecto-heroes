@@ -8,7 +8,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 export class HomeComponent implements OnInit {
   forma!: FormGroup;
-
+  data:any;
   info: tipoDato[] = [];
 
   objeto: any = {
@@ -19,7 +19,11 @@ export class HomeComponent implements OnInit {
   };
 
   constructor() {
-    // localStorage.setItem('usuario', JSON.stringify(this.info));
+    this.data = localStorage.getItem('usuario');
+    if(this.data.length < 1){
+      localStorage.setItem('usuario', JSON.stringify(this.info));
+    }
+    
     this.forma = new FormGroup({
       nombre: new FormControl(),
       sexo: new FormControl(),
