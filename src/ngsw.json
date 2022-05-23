@@ -1,0 +1,139 @@
+{
+  "configVersion": 1,
+  "timestamp": 1653329654701,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.b45d56f1bff70538.js",
+        "/manifest.webmanifest",
+        "/polyfills.0c0cae3b9f233f2f.js",
+        "/runtime.f3fe8285864b779a.js",
+        "/scripts.ff2d9660400b8356.js",
+        "/styles.115278938f51fd54.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/img/A-64.png",
+        "/assets/img/CCDC.jpg",
+        "/assets/img/aquaman.png",
+        "/assets/img/batman.png",
+        "/assets/img/cap.png",
+        "/assets/img/capitan-america.png",
+        "/assets/img/construccion.jpg",
+        "/assets/img/daredevil.png",
+        "/assets/img/dc-comics.png",
+        "/assets/img/dc.jpg",
+        "/assets/img/deadpool.png",
+        "/assets/img/empty.GIF",
+        "/assets/img/flash.png",
+        "/assets/img/fondo.jpg",
+        "/assets/img/heroes.GIF",
+        "/assets/img/hulk.png",
+        "/assets/img/iron.png",
+        "/assets/img/ironman.png",
+        "/assets/img/linterna-verde.png",
+        "/assets/img/marvel-comics.png",
+        "/assets/img/marvel.jpg",
+        "/assets/img/mujer-maravilla.png",
+        "/assets/img/pool.png",
+        "/assets/img/robin.png",
+        "/assets/img/spiderman.png",
+        "/assets/img/uaa.jpg",
+        "/assets/img/wolverine.png",
+        "/fondo.2a81610244945b35.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/img/A-64.png": "af1fd9e697df72656082e6c4c8073055a76fc671",
+    "/assets/img/CCDC.jpg": "da86620dca761cf6e2114dabaab1cefa6563d013",
+    "/assets/img/aquaman.png": "6f888c972601d1e3795727399241409a39325a19",
+    "/assets/img/batman.png": "c79ba6ec0ff094183c56563c156eecb47c3b9969",
+    "/assets/img/cap.png": "197b280b31a645cee131e034d46672592643a3b9",
+    "/assets/img/capitan-america.png": "6df5e8d79662f0e96c57676f32ce32ccffec6c87",
+    "/assets/img/construccion.jpg": "d9d5e2ff24326852b0f0a319a66fb70d6956d43a",
+    "/assets/img/daredevil.png": "97bcb75391a39b9c56122e2f4eabe10feede01f5",
+    "/assets/img/dc-comics.png": "4039a893972f41c7c40eadf86d651bcca084e5c6",
+    "/assets/img/dc.jpg": "c5736878c0fdf41b396a74ba1460a118d5d781b1",
+    "/assets/img/deadpool.png": "fec96c71476faecd78a0737afcd26abe9474ccf2",
+    "/assets/img/empty.GIF": "66f05ffa5165dcea2d97b95e63c3e94476a68628",
+    "/assets/img/flash.png": "98588bf2b8531b515c0a7c642b09a91f44a98f51",
+    "/assets/img/fondo.jpg": "51024946ba09f7f1c9cd8942f961df854d2d23dc",
+    "/assets/img/heroes.GIF": "188627764f5e9d8b267c5e8f11a40b410e0cb912",
+    "/assets/img/hulk.png": "af2ed8c7d4c25db3239204c7edee8d31fed2986b",
+    "/assets/img/iron.png": "e46fb3a6467d0efd6c76efeda6b6e8854878d717",
+    "/assets/img/ironman.png": "c65f2941d17dd965d3b7f9aebedf8a0813bed732",
+    "/assets/img/linterna-verde.png": "0943883c4a1e710be7f16b110c8f76ce84649c67",
+    "/assets/img/marvel-comics.png": "172d55c39203aba0cf9ca7e7fb917c8c6444dadc",
+    "/assets/img/marvel.jpg": "67d1f07e47b39e13869ff43b4a3d29b22c6d98c2",
+    "/assets/img/mujer-maravilla.png": "c34f39df14dff8674859e903e283fc5c1d4fb7e7",
+    "/assets/img/pool.png": "198d78ff96650ed8a313fe9e931c74d5a94a7bc6",
+    "/assets/img/robin.png": "9ee5fd48d3c31f192aff0033eb28baf486a841ce",
+    "/assets/img/spiderman.png": "c22d275f2bea490cd1cc2828c65b5f5bfef1946a",
+    "/assets/img/uaa.jpg": "293c976c1b9f74c42cd2f3db313ffa49882ba5c4",
+    "/assets/img/wolverine.png": "c39dac4245c9b7c2f49c6bb380cf439df8f4c5c2",
+    "/favicon.ico": "7ff61c5d9b872c972a09d1d58eca2ccea9b68d65",
+    "/fondo.2a81610244945b35.jpg": "51024946ba09f7f1c9cd8942f961df854d2d23dc",
+    "/index.html": "8e43ca36d89da1ed3fb43412d7b65bb49a17db7a",
+    "/main.b45d56f1bff70538.js": "ed07eddbe05f6e34b5ad122b277dd954c626112e",
+    "/manifest.webmanifest": "686b161c6b78a424ea1f07a7c31591d30a59851b",
+    "/polyfills.0c0cae3b9f233f2f.js": "d50fa71029881fa541194021478dba90b8b77d05",
+    "/runtime.f3fe8285864b779a.js": "e447cf1d6824bb94d09c189787991f160c0e7129",
+    "/scripts.ff2d9660400b8356.js": "be2ed8e671c9cfe767287a2b0180ed6384b27629",
+    "/styles.115278938f51fd54.css": "cc4fc2b464269822419205aedf53411f58caba68"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
